@@ -1,0 +1,35 @@
+In this assignment you are going to perform the following SQL scenarioes. Create two tables with the following schema: 
+
+Shopping List 
+
+
+shopping_list_id: Auto increment , not null, unique, primary key
+
+name: Name of the shopping list. Max (50) 
+
+
+
+Grocery Item
+
+grocery_item_id: auto increment , not null, unique, primary key 
+name: name of the grocery item like (milk, bread, eggs)
+shopping_list_id: foreign key from the shoppinglist table 
+quantity: integer 
+price: decimal value i.e 3.45
+
+
+- Add 3 shopping lists 
+- Add 5 items in each shopping list 
+- write a query to return shopping lists 
+- write a query to return all grocery items 
+- write a query to return all grocery items where the price is greater than $10 (make sure to insert few grocery items with price > $10)
+- write a query which returns the grocery item with maximum price (GROUP BY, SUM) 
+- write a query which returns the grocery item with minimum price 
+- write a query which returns the total sum of all the grocery items 
+
+- write a query which returns the shopping list name and the grocery items associated with that shopping list
+- write a query which returns the count of total grocery items in each shopping list 
+- write a query which returns the sum of total grocery items in each shopping list
+- insert a duplicate grocery item (same name) into the grocery items table. Now, write a query which filters the duplicate item 
+- insert grocery items with price $10. insert grocery items with price $20. Now write a query which returns all the grocery items with price between $10 and $15 dollars. 
+
