@@ -22,8 +22,8 @@
 
 # Resources
 
-* https://www.w3schools.com/sql/sql_syntax.asp
-* http://sqlfiddle.com/
-* https://github.com/vitaly-t/pg-promise/wiki/* Learn-by-Example
-* https://github.com/vitaly-t/pg-promise
-* https://mherman.org/blog/* designing-a-restful-api-with-node-and-postgres/
+:earth_americas: https://www.w3schools.com/sql/sql_syntax.asp
+:earth_americas: http://sqlfiddle.com/
+:earth_americas: https://github.com/vitaly-t/pg-promise/wiki/* Learn-by-Example
+:earth_americas: https://github.com/vitaly-t/pg-promise
+:earth_americas: https://mherman.org/blog/* designing-a-restful-api-with-node-and-postgres/
