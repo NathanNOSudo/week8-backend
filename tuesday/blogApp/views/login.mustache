@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="main-menu">
+        <a href="/blog">Home</a>
+        <a href="/blog/addblog">Add Post</a>
+        <a href="/blog/viewall">View All Posts</a>
+        {{! <a href="/login">Log In / Sign Up</a> }}
+        {{! <a href="/signout">Sign Out</a> }}
+        </div>
+        <h1>Log In</h1>
+        {{alert}}
+        <form id="login" action="/login" method="POST">
+            <label for="username">Username: </label>
+            <input id="username" type="text" name="username"/>
+            <label for="password">Password: </label>
+            <input id="password" type="password" name="password">
+            <input type="submit" value="Log In">
+        </form>
+        <a href="/signup">Need an account? Sign Up</a>
+    </body>
+</html>
