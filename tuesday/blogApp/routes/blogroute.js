@@ -14,3 +14,5 @@ router.get('/', async (req, res) => {
 router.get('/addblog', (req, res) => {
     res.render('addBlog')
 })
+
+module.exports = router

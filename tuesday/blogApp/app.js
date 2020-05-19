@@ -10,7 +10,7 @@ const bcrypt = require('bcrypt')
 
 const pgp = require('pg-promise')()
 // const connectionString = 
-global.db = pgp(connectionString)
+// global.db = pgp(connectionString)
 
 // app.use(session({
 //     secret: 'mdhf888',
