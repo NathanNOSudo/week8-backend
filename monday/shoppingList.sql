@@ -19,8 +19,10 @@ CREATE TABLE grocery_list (
 
 SELECT * from grocery_list
 /* shows all in grocery_list  */
+
 INSERT INTO shopping_list(name) VALUES('list3')
 /* added a name for the name column this one being list3  */
+
 SELECT * from shopping_list 
 /* shows all items in shopping list Did this to make sure I added 3 lists named list1 list2 and list3 */
 
@@ -41,12 +43,19 @@ SELECT * from shopping_list
 --INSERT INTO grocery_list (name, quantity, price, shopping_list_id) VALUES ('meat', 1, 20.51, 2)
 --INSERT INTO grocery_list (name, quantity, price, shopping_list_id) VALUES ('meat', 8, 20.51, 3) 
 
---SELECT * from grocery_list /*showed 3 list 5 items each */
---ALTER table grocery_list
---ADD COLUMN over_ten BOOLEAN
---UPDATE grocery_list SET over_ten = FALSE WHERE price<10
---UPDATE grocery_list SET over_ten = TRUE WHERE price>10
---SELECT * from grocery_list
+SELECT * from grocery_list /*made 3 list 5 items each */
+
+/* alter grocery_list table added a column for items costing over_ten that shows a boolean wether it is  */
+ALTER table grocery_list 
+ADD COLUMN over_ten BOOLEAN
+
+/* setting logic for over_ten column if price<10 then FALSE and if >10 TRUE  */
+UPDATE grocery_list SET over_ten = FALSE WHERE price<10
+UPDATE grocery_list SET over_ten = TRUE WHERE price>10
+
+/* showing all grocery_list using SELECT * which is not best practice.  */
+SELECT * from grocery_list
+
 INSERT INTO grocery_item (name, quantity, price, shopping_list_id) VALUES ('bread', 1, 2.23, 1)
 INSERT INTO grocery_item (name, quantity, price, shopping_list_id) VALUES ('bread', 1, 2.23, 2)
 INSERT INTO grocery_item (name, quantity, price, shopping_list_id) VALUES ('bread', 1, 2.23, 3)
@@ -62,29 +71,3 @@ INSERT INTO grocery_item (name, quantity, price, shopping_list_id) VALUES ('soda
 INSERT INTO grocery_item (name, quantity, price, shopping_list_id) VALUES ('meat', 1, 20.51, 1)
 INSERT INTO grocery_item (name, quantity, price, shopping_list_id) VALUES ('meat', 1, 20.51, 2)
 INSERT INTO grocery_item (name, quantity, price, shopping_list_id) VALUES ('meat', 1, 20.51, 3)
-
-
----DROP TABLE shopping_list;
-CREATE TABLE grocery_list (
-	grocery_item_id SERIAL PRIMARY KEY, 
-	name varchar(150),
-	shopping_list_id integer references,
-	quantity integer,
-	price decimal
-
----DROP TABLE shopping_list;
-/*CREATE TABLE shopping_list (
-	shopping_list_id SERIAL PRIMARY KEY,
-	name VARCHAR(50)
-);
-
-CREATE TABLE grocery_list (
-	grocery_item_id SERIAL PRIMARY KEY, 
-	name varchar(150),
-	price decimal,
-	quantity integer,
-	shopping_list_id integer references
-	shopping_list(shopping_list_id)
-); */
----SELECT * from grocery_list
-INSERT INTO shopping_list(name) VALUES("list1", "list2", "list3")
