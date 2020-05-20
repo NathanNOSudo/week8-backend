@@ -1,0 +1,25 @@
+{
+  "name": "week8-backend",
+  "version": "1.0.0",
+  "description": "## As your backend code gets larger and more complex, you will need ways to store data, organize your code, and develop quickly. This week you'll be using the Express.js framework, a minimalist backend framework that will help you write backend code. You'll learn how to take advantage of Express.js's routing, templating, and session management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanNOSudo/week8-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanNOSudo/week8-backend/issues"
+  },
+  "homepage": "https://github.com/NathanNOSudo/week8-backend#readme",
+  "dependencies": {
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.10",
+    "sequelize-cli": "^5.5.1"
+  }
+}
