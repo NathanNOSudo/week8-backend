@@ -1,4 +1,6 @@
+# ![codeblooded](https://img.shields.io/badge/VERIFIED-Code_Blooded-brightgreen?style=for-the-badge&logo=checkmarx)  Certified [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 # :trollface: :bangbang: Weeks 8 & 9 - Databases :trollface: :bangbang:
+
 ## At the heart of any blog, social media site, or collaborative web app is its database. Often, your data will have complex relationships ("a blog post has an author and one or more comments from a registered user"). Dealing with this data is straightforward, as long as you can speak the language. This week, you will learn how to "talk" to a database using SQL (Structured Query Language). 
 #### :dna: * PostgreSQL
 #### :dna: * Create statements
