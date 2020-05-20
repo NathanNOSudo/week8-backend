@@ -2,19 +2,6 @@
 # :trollface: Weeks 8 & 9 - Databases :trollface: 
 # [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com) 100% [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 
-
-
-
-
-## At the heart of any blog, social media site, or collaborative web app is its database. Often, your data will have complex relationships ("a blog post has an author and one or more comments from a registered user"). Dealing with this data is straightforward, as long as you can speak the language. This week, you will learn how to "talk" to a database using SQL (Structured Query Language). 
-#### :dna: * PostgreSQL
-#### :dna: * Create statements
-#### :dna: * Insert statements
-#### :dna: * Select statements
-#### :dna: * Where statements
-#### :dna: * Foreign keys and joins
-#### :dna: * Group by and aggregate statements
-
     ...................................................,oxllxd;lkOOKXXXXXXKKKKK
     .........................................'........l0XXXXXXKKXXXXNNNNNNXXXK0
     ..................................................,xXNNNNNXXNNNNNNNNNNXX0dc
@@ -42,8 +29,14 @@
 
 
 
-
-
+## At the heart of any blog, social media site, or collaborative web app is its database. Often, your data will have complex relationships ("a blog post has an author and one or more comments from a registered user"). Dealing with this data is straightforward, as long as you can speak the language. This week, you will learn how to "talk" to a database using SQL (Structured Query Language). 
+#### :dna: * PostgreSQL
+#### :dna: * Create statements
+#### :dna: * Insert statements
+#### :dna: * Select statements
+#### :dna: * Where statements
+#### :dna: * Foreign keys and joins
+#### :dna: * Group by and aggregate statements
 
 ## As your backend code gets larger and more complex, you will need ways to store data, organize your code, and develop quickly. This week you'll be using the Express.js framework, a minimalist backend framework that will help you write backend code. You'll learn how to take advantage of Express.js's routing, templating, and session management.
 
